@@ -12,7 +12,7 @@ wsl.input();
 
 void dispSensorStats(){
     System.out.println("Statistic of the sensor for all Locations);
-    int maxSensor = wsl.calcMaxNumSensors();
-    int minSensor = wsl.calcMinNumSensors();
-    float avgSensor = wsl.calcAvgNumSensors();
+    public int maxSensor = wsl.calcMaxNumSensors();
+    public int minSensor = wsl.calcMinNumSensors();
+    public float avgSensor = wsl.calcAvgNumSensors();
 }
