@@ -6,7 +6,7 @@ WeatherStationList wsl;
 void dispSensorStats();
 
 public static void main(String[] args) {
-wsl.input();
+    wsl.input();
     wsl.dispWeatherStatistic();
     dispSensorStats();
     return 0;
