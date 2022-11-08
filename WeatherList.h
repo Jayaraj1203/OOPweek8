@@ -11,8 +11,8 @@ public class WeatherList {
         //operations
       public static void readWeather() {
             // read in weather data for a single weather station    
-            float Max = 40;
-            float Min = 20;
+            public float Max = 40;
+            public float Min = 20;
             
             for (int i=0; i<NUMDATA; i++) {
                 weather[i].generate(Min, Max);
