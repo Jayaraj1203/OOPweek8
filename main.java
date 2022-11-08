@@ -1,5 +1,7 @@
 import java.util.Random;
-
+public class climate extends WeatherStationList{
+    
+public class climate{
 WeatherStationList wsl;
 void dispSensorStats();
 
@@ -15,4 +17,6 @@ void dispSensorStats(){
     public int maxSensor = wsl.calcMaxNumSensors();
     public int minSensor = wsl.calcMinNumSensors();
     public float avgSensor = wsl.calcAvgNumSensors();
-}
+                       }
+                       }
+                       }
